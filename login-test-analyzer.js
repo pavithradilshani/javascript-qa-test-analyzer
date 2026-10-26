@@ -6,10 +6,10 @@ const testCases = [
     { name: "Login Performance", status: "Passed", priority: "Medium" }
 ];
 
-function analyzeTests(testCases) {8
+function analyzeTests(testCases) {
     let passedCount = 0;
     let failedCount = 0;
-888
+
     for (const testCase of testCases) {
         if (testCase.status === "Passed") {
             passedCount++;
